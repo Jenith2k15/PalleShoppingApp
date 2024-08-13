@@ -28,3 +28,4 @@ C:\Users\jenit\source\repos\PalleShoppingApp\PalleShoppingApp\obj\Debug\net8.0\r
 C:\Users\jenit\source\repos\PalleShoppingApp\PalleShoppingApp\obj\Debug\net8.0\PalleShoppingApp.pdb
 C:\Users\jenit\source\repos\PalleShoppingApp\PalleShoppingApp\obj\Debug\net8.0\PalleShoppingApp.genruntimeconfig.cache
 C:\Users\jenit\source\repos\PalleShoppingApp\PalleShoppingApp\obj\Debug\net8.0\ref\PalleShoppingApp.dll
+C:\Users\jenit\source\repos\PalleShoppingApp\PalleShoppingApp\obj\Debug\net8.0\PalleShoppingApp.sourcelink.json
