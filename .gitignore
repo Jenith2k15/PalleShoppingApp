@@ -13,3 +13,5 @@
 /PalleShoppingApp/obj/Debug/net8.0/ref/PalleShoppingApp.dll
 /PalleShoppingApp/obj/Debug/net8.0/refint/PalleShoppingApp.dll
 /PalleShoppingApp/obj/Debug/net8.0/PalleShoppingApp.csproj.BuildWithSkipAnalyzers
+/bin
+/.vs
