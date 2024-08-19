@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy ASP.Net Core app to Azure Web App - PalleShoppingApp
+name: Build and deploy ASP.Net Core app to Azure Web App - palleshoppingapp
 
 on:
   push:
@@ -51,15 +51,15 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_4C51E826B60343AA92B856F9CDD61A74 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_5FE5CD334F594BF5A25740DB007D97B6 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_A8A2DDD0FB654A598934E27726E33CB1 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_93CD85C456DE4A9E96115B3E4C7F93F7 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_BE5B485813AB4CFB966A1151402390A9 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_47463B841A374695AE4CB2559D0C6253 }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'PalleShoppingApp'
+          app-name: 'palleshoppingapp'
           slot-name: 'Production'
           package: .
           
